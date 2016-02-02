@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF6A41571C6073DB00B7F4AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6A41561C6073DB00B7F4AF /* main.m */; };
+		EF6A415A1C6073DB00B7F4AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6A41591C6073DB00B7F4AF /* AppDelegate.m */; };
+		EF6A415D1C6073DB00B7F4AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6A415C1C6073DB00B7F4AF /* ViewController.m */; };
+		EF6A41621C6073DB00B7F4AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6A41611C6073DB00B7F4AF /* Assets.xcassets */; };
+		EF6A41651C6073DB00B7F4AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6A41631C6073DB00B7F4AF /* LaunchScreen.storyboard */; };
+		EF6A41701C6073DB00B7F4AF /* DateTimePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6A416F1C6073DB00B7F4AF /* DateTimePickerTests.m */; };
+		EF6A417B1C6073DB00B7F4AF /* DateTimePickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6A417A1C6073DB00B7F4AF /* DateTimePickerUITests.m */; };
+		EF6A41891C60751700B7F4AF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF6A41881C60751700B7F4AF /* ViewController.xib */; };
+		EF6A418B1C60752800B7F4AF /* DateTimePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF6A418A1C60752800B7F4AF /* DateTimePickerView.xib */; };
+		EF6A418E1C60757500B7F4AF /* DateTimePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6A418D1C60757500B7F4AF /* DateTimePickerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF6A416C1C6073DB00B7F4AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF6A414A1C6073DA00B7F4AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF6A41511C6073DA00B7F4AF;
+			remoteInfo = DateTimePicker;
+		};
+		EF6A41771C6073DB00B7F4AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF6A414A1C6073DA00B7F4AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF6A41511C6073DA00B7F4AF;
+			remoteInfo = DateTimePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF6A41521C6073DB00B7F4AF /* DateTimePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateTimePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF6A41561C6073DB00B7F4AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF6A41581C6073DB00B7F4AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF6A41591C6073DB00B7F4AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF6A415B1C6073DB00B7F4AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF6A415C1C6073DB00B7F4AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF6A41611C6073DB00B7F4AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF6A41641C6073DB00B7F4AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF6A41661C6073DB00B7F4AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF6A416B1C6073DB00B7F4AF /* DateTimePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateTimePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF6A416F1C6073DB00B7F4AF /* DateTimePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateTimePickerTests.m; sourceTree = "<group>"; };
+		EF6A41711C6073DB00B7F4AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF6A41761C6073DB00B7F4AF /* DateTimePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateTimePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF6A417A1C6073DB00B7F4AF /* DateTimePickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateTimePickerUITests.m; sourceTree = "<group>"; };
+		EF6A417C1C6073DB00B7F4AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF6A41881C60751700B7F4AF /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		EF6A418A1C60752800B7F4AF /* DateTimePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateTimePickerView.xib; sourceTree = "<group>"; };
+		EF6A418C1C60757500B7F4AF /* DateTimePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTimePickerViewController.h; sourceTree = "<group>"; };
+		EF6A418D1C60757500B7F4AF /* DateTimePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateTimePickerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF6A414F1C6073DA00B7F4AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6A41681C6073DB00B7F4AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6A41731C6073DB00B7F4AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF6A41491C6073DA00B7F4AF = {
+			isa = PBXGroup;
+			children = (
+				EF6A41541C6073DB00B7F4AF /* DateTimePicker */,
+				EF6A416E1C6073DB00B7F4AF /* DateTimePickerTests */,
+				EF6A41791C6073DB00B7F4AF /* DateTimePickerUITests */,
+				EF6A41531C6073DB00B7F4AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF6A41531C6073DB00B7F4AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF6A41521C6073DB00B7F4AF /* DateTimePicker.app */,
+				EF6A416B1C6073DB00B7F4AF /* DateTimePickerTests.xctest */,
+				EF6A41761C6073DB00B7F4AF /* DateTimePickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF6A41541C6073DB00B7F4AF /* DateTimePicker */ = {
+			isa = PBXGroup;
+			children = (
+				EF6A41581C6073DB00B7F4AF /* AppDelegate.h */,
+				EF6A41591C6073DB00B7F4AF /* AppDelegate.m */,
+				EF6A415B1C6073DB00B7F4AF /* ViewController.h */,
+				EF6A415C1C6073DB00B7F4AF /* ViewController.m */,
+				EF6A41611C6073DB00B7F4AF /* Assets.xcassets */,
+				EF6A41631C6073DB00B7F4AF /* LaunchScreen.storyboard */,
+				EF6A41661C6073DB00B7F4AF /* Info.plist */,
+				EF6A41551C6073DB00B7F4AF /* Supporting Files */,
+				EF6A41881C60751700B7F4AF /* ViewController.xib */,
+				EF6A418A1C60752800B7F4AF /* DateTimePickerView.xib */,
+				EF6A418C1C60757500B7F4AF /* DateTimePickerViewController.h */,
+				EF6A418D1C60757500B7F4AF /* DateTimePickerViewController.m */,
+			);
+			path = DateTimePicker;
+			sourceTree = "<group>";
+		};
+		EF6A41551C6073DB00B7F4AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF6A41561C6073DB00B7F4AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF6A416E1C6073DB00B7F4AF /* DateTimePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF6A416F1C6073DB00B7F4AF /* DateTimePickerTests.m */,
+				EF6A41711C6073DB00B7F4AF /* Info.plist */,
+			);
+			path = DateTimePickerTests;
+			sourceTree = "<group>";
+		};
+		EF6A41791C6073DB00B7F4AF /* DateTimePickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF6A417A1C6073DB00B7F4AF /* DateTimePickerUITests.m */,
+				EF6A417C1C6073DB00B7F4AF /* Info.plist */,
+			);
+			path = DateTimePickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF6A41511C6073DA00B7F4AF /* DateTimePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF6A417F1C6073DB00B7F4AF /* Build configuration list for PBXNativeTarget "DateTimePicker" */;
+			buildPhases = (
+				EF6A414E1C6073DA00B7F4AF /* Sources */,
+				EF6A414F1C6073DA00B7F4AF /* Frameworks */,
+				EF6A41501C6073DA00B7F4AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DateTimePicker;
+			productName = DateTimePicker;
+			productReference = EF6A41521C6073DB00B7F4AF /* DateTimePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF6A416A1C6073DB00B7F4AF /* DateTimePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF6A41821C6073DB00B7F4AF /* Build configuration list for PBXNativeTarget "DateTimePickerTests" */;
+			buildPhases = (
+				EF6A41671C6073DB00B7F4AF /* Sources */,
+				EF6A41681C6073DB00B7F4AF /* Frameworks */,
+				EF6A41691C6073DB00B7F4AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF6A416D1C6073DB00B7F4AF /* PBXTargetDependency */,
+			);
+			name = DateTimePickerTests;
+			productName = DateTimePickerTests;
+			productReference = EF6A416B1C6073DB00B7F4AF /* DateTimePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF6A41751C6073DB00B7F4AF /* DateTimePickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF6A41851C6073DB00B7F4AF /* Build configuration list for PBXNativeTarget "DateTimePickerUITests" */;
+			buildPhases = (
+				EF6A41721C6073DB00B7F4AF /* Sources */,
+				EF6A41731C6073DB00B7F4AF /* Frameworks */,
+				EF6A41741C6073DB00B7F4AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF6A41781C6073DB00B7F4AF /* PBXTargetDependency */,
+			);
+			name = DateTimePickerUITests;
+			productName = DateTimePickerUITests;
+			productReference = EF6A41761C6073DB00B7F4AF /* DateTimePickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF6A414A1C6073DA00B7F4AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = anupam;
+				TargetAttributes = {
+					EF6A41511C6073DA00B7F4AF = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EF6A416A1C6073DB00B7F4AF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EF6A41511C6073DA00B7F4AF;
+					};
+					EF6A41751C6073DB00B7F4AF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EF6A41511C6073DA00B7F4AF;
+					};
+				};
+			};
+			buildConfigurationList = EF6A414D1C6073DA00B7F4AF /* Build configuration list for PBXProject "DateTimePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF6A41491C6073DA00B7F4AF;
+			productRefGroup = EF6A41531C6073DB00B7F4AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF6A41511C6073DA00B7F4AF /* DateTimePicker */,
+				EF6A416A1C6073DB00B7F4AF /* DateTimePickerTests */,
+				EF6A41751C6073DB00B7F4AF /* DateTimePickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF6A41501C6073DA00B7F4AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6A41651C6073DB00B7F4AF /* LaunchScreen.storyboard in Resources */,
+				EF6A41621C6073DB00B7F4AF /* Assets.xcassets in Resources */,
+				EF6A41891C60751700B7F4AF /* ViewController.xib in Resources */,
+				EF6A418B1C60752800B7F4AF /* DateTimePickerView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6A41691C6073DB00B7F4AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6A41741C6073DB00B7F4AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF6A414E1C6073DA00B7F4AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6A415D1C6073DB00B7F4AF /* ViewController.m in Sources */,
+				EF6A415A1C6073DB00B7F4AF /* AppDelegate.m in Sources */,
+				EF6A41571C6073DB00B7F4AF /* main.m in Sources */,
+				EF6A418E1C60757500B7F4AF /* DateTimePickerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6A41671C6073DB00B7F4AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6A41701C6073DB00B7F4AF /* DateTimePickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6A41721C6073DB00B7F4AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6A417B1C6073DB00B7F4AF /* DateTimePickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF6A416D1C6073DB00B7F4AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF6A41511C6073DA00B7F4AF /* DateTimePicker */;
+			targetProxy = EF6A416C1C6073DB00B7F4AF /* PBXContainerItemProxy */;
+		};
+		EF6A41781C6073DB00B7F4AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF6A41511C6073DA00B7F4AF /* DateTimePicker */;
+			targetProxy = EF6A41771C6073DB00B7F4AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF6A41631C6073DB00B7F4AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF6A41641C6073DB00B7F4AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF6A417D1C6073DB00B7F4AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF6A417E1C6073DB00B7F4AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF6A41801C6073DB00B7F4AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DateTimePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anupam.DateTimePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF6A41811C6073DB00B7F4AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DateTimePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anupam.DateTimePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF6A41831C6073DB00B7F4AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DateTimePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anupam.DateTimePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DateTimePicker.app/DateTimePicker";
+			};
+			name = Debug;
+		};
+		EF6A41841C6073DB00B7F4AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DateTimePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anupam.DateTimePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DateTimePicker.app/DateTimePicker";
+			};
+			name = Release;
+		};
+		EF6A41861C6073DB00B7F4AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DateTimePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anupam.DateTimePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DateTimePicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EF6A41871C6073DB00B7F4AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DateTimePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anupam.DateTimePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DateTimePicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF6A414D1C6073DA00B7F4AF /* Build configuration list for PBXProject "DateTimePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6A417D1C6073DB00B7F4AF /* Debug */,
+				EF6A417E1C6073DB00B7F4AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF6A417F1C6073DB00B7F4AF /* Build configuration list for PBXNativeTarget "DateTimePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6A41801C6073DB00B7F4AF /* Debug */,
+				EF6A41811C6073DB00B7F4AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF6A41821C6073DB00B7F4AF /* Build configuration list for PBXNativeTarget "DateTimePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6A41831C6073DB00B7F4AF /* Debug */,
+				EF6A41841C6073DB00B7F4AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF6A41851C6073DB00B7F4AF /* Build configuration list for PBXNativeTarget "DateTimePickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6A41861C6073DB00B7F4AF /* Debug */,
+				EF6A41871C6073DB00B7F4AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF6A414A1C6073DA00B7F4AF /* Project object */;
+}

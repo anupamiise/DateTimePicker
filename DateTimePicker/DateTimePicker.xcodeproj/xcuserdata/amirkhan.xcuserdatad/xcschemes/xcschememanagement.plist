@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>DateTimePicker.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>EF6A41511C6073DA00B7F4AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF6A416A1C6073DB00B7F4AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF6A41751C6073DB00B7F4AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
